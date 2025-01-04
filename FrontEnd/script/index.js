@@ -12,12 +12,12 @@ if (names != undefined) {
     usern.innerHTML = "Your Name";
 }
 
-console.log(usern);
-console.log(names);
+
 
 window.onload = () => {
 
     let userData = JSON.parse(localStorage.getItem('userData'));
+    console.log(userData);
     if (userData != undefined) {
         document.getElementById('login').style.display = 'none';
         document.getElementById('logout').style.display = 'block';
