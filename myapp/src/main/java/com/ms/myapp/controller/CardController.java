@@ -1,12 +1,10 @@
 package com.ms.myapp.controller;
 
-import com.ms.myapp.models.CardRequestDto;
 import com.ms.myapp.models.request.Request;
 import com.ms.myapp.models.MasterResponse;
 import com.ms.myapp.models.response.Response;
 import com.ms.myapp.service.CardService;
 import com.ms.myapp.utility.Constants;
-import com.ms.myapp.utility.RequestValidator;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
