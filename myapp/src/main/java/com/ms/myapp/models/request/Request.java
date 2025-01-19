@@ -1,8 +1,8 @@
 package com.ms.myapp.models.request;
 
-public class Request {
+public class Request<T> {
     private MetaData metaData;
-    private RequestData requestData;
+    private RequestData<T> requestData;
 
     public MetaData getMetaData() {
         return metaData;

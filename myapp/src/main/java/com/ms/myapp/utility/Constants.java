@@ -8,6 +8,7 @@ public class Constants {
     public static final String ERROR_IN_CHANGING_THE_CARD_STATUS= "Error in changing the card status";
     public static final String CARD_LIST_NOT_AVAILABLE="Card list not available";
     public static final String ERROR_IN_FINDING_TRANSACTIONS="Error in finding transactions";
+    public static final String ERROR_IN_ADDING_TRANSACTION="Error in adding transaction";
 
 
     public static final String ADD_CARD_END_POINT_CALLED="Add card url called with request :{}";

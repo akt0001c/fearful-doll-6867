@@ -2,16 +2,16 @@ package com.ms.myapp.models.request;
 
 
 
-public class RequestData {
+public class RequestData<T> {
     private String requestType;
 
-    private Payload<Object> payload;
+    private Payload<T> payload;
 
-    public Payload<Object> getPayload() {
+    public Payload<T> getPayload() {
         return payload;
     }
 
-    public void setPayload(Payload<Object> payload) {
+    public void setPayload(Payload<T> payload) {
         this.payload = payload;
     }
 
